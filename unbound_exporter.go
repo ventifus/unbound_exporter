@@ -253,7 +253,7 @@ var (
 			nil,
 			"^rrset\\.cache\\.count$"),
 		newUnboundMetric(
-			"num_query_https",
+			"num_query_https_total",
 			"The number of HTTPS (DoH) queries",
 			prometheus.GaugeValue,
 			nil,
